@@ -61,6 +61,7 @@ The user can use the below link for a video that demonstrates the functionality 
 
     Link: https://drive.google.com/file/d/1oFebKUhXGslSta1qfi7AgelevIka7uSz/view
 
+
 ## Credits
 
 Referenced the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) in order to include everything that a high-quality, professional README should contain.
@@ -82,10 +83,4 @@ Application uses package.json - a file that exists at the root and holds metadat
 
 ## Tests
 
-A sample README-Generated using the application is displayed below.
-
-    ```md
-
-    ![alt text](assets/images/screenshot.png)
-
-    ```
+As displayed in the video at the end of usage, a sample README-Generated using the application is displayed below.

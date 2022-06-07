@@ -75,6 +75,7 @@ const questions = [{
 function init() {
     inquirer.prompt(questions)
         .then(response)
+            writeToFile(response)
 };
 
 //this function writes the MD file 
