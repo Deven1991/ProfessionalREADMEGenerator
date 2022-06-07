@@ -18,17 +18,22 @@ const questions = [{
 },
 {
     type: "input",
-    message: "How will this be used? ",
-    name: "usage"
-},
-{
-    type: "input",
-    message: "Describe how to install the app",
+    message: "Describe how to install the application.",
     name: "installation"
 },
 {
     type: "input",
-    message: "Include the link to the demo video.",
+    message: "How will this application be used? ",
+    name: "usage"
+},
+{
+    type: "input",
+    message: "Describe the purpose of this application and features of the application.",
+    name: "features"
+},
+{
+    type: "input",
+    message: "Link to the demo video.",
     name: "demo"
 },
 {
@@ -38,18 +43,8 @@ const questions = [{
 },
 {
     type: "input",
-    message: "Describe the purpose of this app and features of the app",
-    name: "features"
-},
-{
-    type: "input",
-    message: "List your collaboraters if any",
+    message: "List your collaboraters, if any.",
     name: "credits"
-},
-{
-    type: "input",
-    message: "Describe how users can contribute to this application or project",
-    name: "contribute"
 },
 {
     type: "list",
@@ -92,7 +87,7 @@ function init() {
 
 //this function writes the MD file 
 function writeToFile(response) {
-    fs.writeFile(`./${response.name}README.md`, generateMarkdown(response), (err) => err ? console.error(err) : console.log('MD file created'));
+    fs.writeFile(`./${response.name}README-GeneratedVersion.md`, generateMarkdown(response), (err) => err ? console.error(err) : console.log('MD file created'));
 }
 
 // Function call to initialize app
