@@ -74,13 +74,13 @@ const questions = [{
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then(response)
-            writeToFile(response)
+    .then(response)
+        writeToFile(response)
 };
 
 //this function writes the MD file 
 function writeToFile(response) {
-    fs.writeFile(`./${response.name}README-GeneratedVersion.md`, generateMarkdown(response), (err) => err ? console.error(err) : console.log('MD file created'));
+    fs.writeFile(`./${response.name}README-GeneratedVersion.md`, generateMarkdown(response), (err) => err ? console.error(err) : console.log('Success! MD file created'));
 }
 
 // Function call to initialize app
