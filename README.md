@@ -29,7 +29,7 @@ The application is invoked by using the following command:
 ```bash
 node index.js
 ```
-
+![alt text](images/nodeindex.js.png)
 
 ## Usage
 
@@ -37,21 +37,21 @@ Once the application is invoked, the user is asked a series of questions in orde
 
 First question refers to subject or title and validation confirms input of any length greater than 0 is input.
 
+![alt text](images/titlevalidation.png)
+
 Next, the description of the README must be at least 15 characters long.
 
+![alt text](images/desclengthvalidation.png)
+
 Once prompted to select a license, user is given choices between "MIT," "Apache," "IBM," or "None."
+
+![alt text](images/licenseoptions.png)
 
 Next question asks user to type GitHub username which cannot be less than four characters.
 
 Last question with validation confirms user's e-mail is at least 1 or more characters.
 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-
-    ![alt text](assets/images/screenshot.png)
-
-    ```
+![alt text](images/emailvalidation.png)
 
 When the user clicks on the links in the Table of Contents, the user is taken to the corresponding section of the README.
 
