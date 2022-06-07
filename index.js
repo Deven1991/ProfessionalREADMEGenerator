@@ -42,6 +42,17 @@ const questions = [{
     name: 'imageURL',
 },
 {
+    type: 'confirm',
+    message: 'Include another screenshot?',
+    name: 'secondimage',
+},
+{
+    type: 'input',
+    message:'Insert next screenshot url or path',
+    name:'confirmsecondimage',
+    when: response => response.secondimage === true,
+},
+{
     type: 'input',
     message: 'List your collaboraters, if any.',
     name: 'credits'
@@ -74,8 +85,15 @@ const questions = [{
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(response)
-        writeToFile(response)
+        .then((response) => {
+            //bc the second screenshot is a question and returns boolean i created an if else statement, if true a new img tag is created, else it is blank.
+            if (response.secondimage === true) {
+                response.confirmsecondimage = `<img src="${response.confirmsecondimage}" alt="screenshot of application"/>`
+            } else {
+                response.confirmsecondimage = "";
+            }
+            writeToFile(response)
+        })
 };
 
 //this function writes the MD file 

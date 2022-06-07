@@ -2,6 +2,7 @@
 // If there is no license, return an empty string
 var licenseIcon = "";
 var licenseURL = "";
+
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     licenseIcon = `![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)`;
@@ -54,6 +55,7 @@ function generateMarkdown(response) {
 ## Description 
 ${licenseIcon} </br>
 ${response.description}
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -65,27 +67,38 @@ ${response.description}
 - [Tests](#tests)
 - [Contributing](#contributing)
 - [Questions](#questions)
+
 ## Installation
 ${response.installation}
+
 ## Usage
 ${response.usage}
+
 ## Features 
 ${response.features}
+
 ## Demo Video
 [Demo Video](${response.demo ? response.demo : "N/A"})
-## Screenshot
+
+## ScreenShot
 <img src="${response.imageURL}" alt="screenshot of application"/> </br>
-${response.confirmimageURL2}
+${response.confirmsecondimage}
+
 ## Collaboraters
 ${response.collaboraters ? response.collaboraters : "N/A"}
+
 ## License 
 ${licenseURL}
+
 ## Tests
 ${response.test ? response.test : "N/A"}
+
 ## Contributing 
 ${response.contribute ? response.contribute : "N/A"}
+
 ## Questions
 If you have any questions or would like to discuss this application further, please reach out to me via email at [${response.email}](mailto:${response.email}) or visit my github profile at [${response.userName}](http://www.github.com/${response.userName}).
+
 ### Created by ${response.createdBy}
 `};
 
