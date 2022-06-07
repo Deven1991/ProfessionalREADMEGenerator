@@ -2,7 +2,7 @@
 
 ## Description 
   </br>
-adfsadfsadsdfasdfsadfasdf
+Notify guests of all events in Cancun, Mexico
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,19 +17,19 @@ adfsadfsadsdfasdfsadfasdf
 - [Questions](#questions)
 
 ## Installation
-fdadsfasfd
+Run node index.js on a command line
 
 ## Usage
-afdaf
+Not in the browser
 
 ## Features 
-afdafaf
+Features include jQuery
 
 ## Demo Video
-[Demo Video](adfadfaf)
+[Demo Video](https://youtube.com/weddingwebsite)
 
 ## ScreenShot
-<img src="afdafdaf" alt="screenshot of application"/> </br>
+<img src="/assets/images/wedding.png" alt="screenshot of application"/> </br>
 
 
 ## Collaboraters
@@ -45,6 +45,6 @@ N/A
 N/A
 
 ## Questions
-If you have any questions or would like to discuss this application further, please reach out to me via email at [mmdeven@gmail.com](mailto:mmdeven@gmail.com) or visit my github profile at [deven1991](http://www.github.com/deven1991).
+If you have any questions or would like to discuss this application further, please reach out to me via email at [mmdeven@gmail.com](mailto:mmdeven@gmail.com) or visit my github profile at [Deven1991](http://www.github.com/Deven1991).
 
 ### Created by Deven1991
