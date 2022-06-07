@@ -75,13 +75,13 @@ const questions = [{
 function init() {
     inquirer.prompt(questions)
         .then((response) => {
-            //if true a new img tag is created, else it is blank.
-            if (response.imageURL2 === true) {
-                response.confirmimageURL2 = `<img src="${response.confirmimageURL2}" alt="screenshot"/>`
-            } else {
-                response.confirmimageURL2 = "";
-            }
-            writeToFile(response)
+//             //if true a new img tag is created, else it is blank.
+//             if (response.imageURL2 === true) {
+//                 response.confirmimageURL2 = `<img src="${response.confirmimageURL2}" alt="screenshot"/>`
+//             } else {
+//                 response.confirmimageURL2 = "";
+//             }
+//             writeToFile(response)
         })
 };
 
