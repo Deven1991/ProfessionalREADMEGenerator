@@ -55,7 +55,11 @@ Last question with validation confirms user's e-mail is at least 1 or more chara
 
 When the user clicks on the links in the Table of Contents, the user is taken to the corresponding section of the README.
 
-Link to walkthrough video that demonstrates the functionality of the README generator: <<INSERT LINK>>
+    Link: https://drive.google.com/file/d/1edcIGfwrce35cvrbzgk6Ss0gZdtT2syg/view
+
+The user can use the below link for a video that demonstrates the functionality of the README generator. 
+
+    Link: https://drive.google.com/file/d/1oFebKUhXGslSta1qfi7AgelevIka7uSz/view
 
 ## Credits
 
